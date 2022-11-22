@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(22, 22, 15);
+    font-family: 'Secular One', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Rubik Microbe', cursive;
+}
+
+header select {
+    color: orange;
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(40, 40, 40);
+}
+
+.header {
+    color: orange;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    font-size: 60px;
+}
+
+.cards {
+    padding: 20px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    border-radius: 20px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.card {
+    width: 250px;
+    height: 280px;
+    background-color: orange;
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.matchImg {
+    width: 253px;
+    height: 280px;
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.2s;
+}
+
+.card h4 {
+    text-align: center;
+    margin: auto;
+}
+
+.cardImg {
+    transition: 0.2s;
+}
+
+.cardImg:hover {
+    opacity: 0.5;
+}
+
+.img {
+    width: 253px;
+    height: 280px;
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.2s;
+}
+
+img:hover {
+    opacity: 0.3;
+}
+
+.docs {
+    color: orange;
+}
